@@ -221,6 +221,7 @@ strong {
 
 small, .small {
   font-size: 0.875em;
+  text-align: center;
 }
 
 mark, .mark {
@@ -3746,12 +3747,14 @@ textarea.form-control-lg {
   --bs-navbar-toggler-border-radius: 0.375rem;
   --bs-navbar-toggler-focus-width: 0.25rem;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
-  position: relative;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  width: 100%;
+  z-index: 90;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -8163,6 +8166,7 @@ textarea.form-control-lg {
 
 .text-uppercase {
   text-transform: uppercase !important;
+  font-size: 12pt;
 }
 
 .text-capitalize {
