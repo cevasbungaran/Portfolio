@@ -11593,13 +11593,21 @@ html {
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 80vw;
+  height: 105vw;
   max-height: 45rem;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
 }
+
+/* @media (min-width: 1024px) { 
+  .profile .profile-img {
+    height: 10cm;
+    max-height: 50rem;
+  }
+} */
+
 .profile .dots-1 {
   position: absolute;
   width: 3vw;
@@ -11643,7 +11651,32 @@ html {
     width: 60vw;
   }
   .profile .profile-img {
-    height: 65vw;
+    height: 55vw;
+  }
+  .profile .dots-1 {
+    width: 3vw;
+    right: 1.5vw;
+  }
+  .profile .dots-2 {
+    width: 3vw;
+    right: -4vw;
+  }
+  .profile .dots-3 {
+    width: 3vw;
+    left: 1.5vw;
+  }
+  .profile .dots-4 {
+    width: 3vw;
+    left: -4vw;
+  }
+}
+@media (min-width: 580px) {
+  .profile {
+    height: 55vw;
+    width: 55vw;
+  }
+  .profile .profile-img {
+    height: 77vw;
   }
   .profile .dots-1 {
     width: 3vw;
@@ -11668,7 +11701,32 @@ html {
     width: 50vw;
   }
   .profile .profile-img {
-    height: 55vw;
+    height: 45vw;
+  }
+  .profile .dots-1 {
+    width: 3vw;
+    right: 1.5vw;
+  }
+  .profile .dots-2 {
+    width: 3vw;
+    right: -4vw;
+  }
+  .profile .dots-3 {
+    width: 3vw;
+    left: 1.5vw;
+  }
+  .profile .dots-4 {
+    width: 3vw;
+    left: -4vw;
+  }
+}
+@media (min-width: 768px) {
+  .profile {
+    height: 50vw;
+    width: 50vw;
+  }
+  .profile .profile-img {
+    height: 70vw;
   }
   .profile .dots-1 {
     width: 3vw;
@@ -11693,7 +11751,7 @@ html {
     width: 40vw;
   }
   .profile .profile-img {
-    height: 45vw;
+    height: 56vw;
   }
   .profile .dots-1 {
     width: 1.5vw;
@@ -11718,7 +11776,7 @@ html {
     width: 35vw;
   }
   .profile .profile-img {
-    height: 40vw;
+    height: 50vw;
   }
   .profile .dots-1 {
     width: 1.5vw;
