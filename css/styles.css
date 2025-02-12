@@ -599,9 +599,21 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
   height: auto;
 }
+
+@media(min-width:375px){
+  .img-fluid{
+    display: none;
+  }
+}
+
+@media(min-width:500px){
+  .img-fluid{
+    display: flex;
+  }
+}
+
 
 .img-thumbnail {
   padding: 0.25rem;
